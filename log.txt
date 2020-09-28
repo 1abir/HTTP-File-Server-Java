@@ -1,0 +1,443 @@
+Input Request: 
+GET / HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 14:52:48 BDT 2020
+Content-Type: text/html
+Content-Length: 137
+
+Input Request: 
+GET /favicon.ico HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8799/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 14:52:49 BDT 2020
+Content-Type: null
+Content-Length: 21
+
+Input Request: 
+GET /file1.txt HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 14:52:51 BDT 2020
+Content-Type: application/force-download
+Content-Length: 4
+
+Input Request: 
+GET /doc1.docx HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 14:52:58 BDT 2020
+Content-Type: application/force-download
+Content-Length: 11260
+
+Input Request: 
+UPLOAD index.html HTTP/1.1
+Content-Length: 160
+Content-Type: text/html
+Date: Sat Sep 26 14:55:31 BDT 2020
+Host: localhost
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sun Mar 15 00:36:14 BDT 2020
+
+
+Input Request: 
+GET /file1.txt HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:05:07 BDT 2020
+Content-Type: application/force-download
+Content-Length: 4
+
+Input Request: 
+GET /doc1.docx HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:06:30 BDT 2020
+Content-Type: application/force-download
+Content-Length: 11260
+
+Input Request: 
+GET /doc1.docx HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:06:32 BDT 2020
+Content-Type: application/force-download
+Content-Length: 11260
+
+Input Request: 
+GET /fdafdf HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:09:17 BDT 2020
+Content-Type: null
+Content-Length: 21
+
+Input Request: 
+GET /dir1 HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:09:22 BDT 2020
+Content-Type: text/html
+Content-Length: 298
+
+Input Request: 
+GET /dir1/Tafsir%20Ibn%20Kasir%20Part-8-9-10-11.pdf HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/dir1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:09:24 BDT 2020
+Content-Type: null
+Content-Length: 21
+
+Input Request: 
+GET /dir1/Tafsir%20Ibn%20Kasir%20Part-8-9-10-11.pdf HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/dir1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:09:52 BDT 2020
+Content-Type: null
+Content-Length: 21
+
+Input Request: 
+GET /dir1/file2.txt HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/dir1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:09:59 BDT 2020
+Content-Type: application/force-download
+Content-Length: 4
+
+Input Request: 
+GET /dir1/Tafsir%20Ibn%20Kasir%20Part-8-9-10-11.pdf HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/dir1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:10:03 BDT 2020
+Content-Type: null
+Content-Length: 21
+
+Input Request: 
+GET /dir1/pdfsend.pdf HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/dir1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:10:01 BDT 2020
+Content-Type: application/force-download
+Content-Length: 633428
+
+Input Request: 
+GET /dir1/pdfsend.pdf HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/dir1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:10:23 BDT 2020
+Content-Type: application/force-download
+Content-Length: 633428
+
+Input Request: 
+GET /dir1 HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:11:17 BDT 2020
+Content-Type: text/html
+Content-Length: 203
+
+Input Request: 
+GET /dir1/imgsend.jpg HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/dir1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:10:40 BDT 2020
+Content-Type: application/force-download
+Content-Length: 2718541
+
+Input Request: 
+GET /dir1/imgsend.jpg HTTP/1.1
+Host: localhost:8799
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8799/dir1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: intercom-id-wj7rirzi=a7726889-e220-46af-8a09-dc7738574df5; tfwc_tool_compare=%5B%5D; tfwc_tool_wishilst=%5B117%5D; csrftoken=KjlC2D46ParDG8oKKYub9da4PjRBCHUfQRo72BXz5Gv7pS27Pn5kKVqdEcIybg6q
+
+Output Response - 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Connection: close
+Date: Sat Sep 26 15:10:45 BDT 2020
+Content-Type: application/force-download
+Content-Length: 2718541
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="612d02f0-7554-41bb-b2fa-71369b5d6ab5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YcE4Ts57LfTeU4x2u2oKdNhOhA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/root/dir1" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - BUET\Me\Academic\3-2\Networking Sessionals\Offline1\Materials on Offline 1\Offline 1\root\dir1" />
+      <recent name="D:\OneDrive - BUET\Me\Academic\3-2\Networking Sessionals\Offline1\Materials on Offline 1\Offline 1\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\BUET\January 2020 term\CSE322_Computer_Networks_Sessional\Offline 1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.Client" />
+      <module name="Offline 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HTTPServerSkeleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HTTPServerSkeleton" />
+      <module name="Offline 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Server" />
+      <module name="Offline 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.HTTPServerSkeleton" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="612d02f0-7554-41bb-b2fa-71369b5d6ab5" name="Default Changelist" comment="" />
+      <created>1583233290967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583233290967</updated>
+      <workItem from="1601110269594" duration="2636000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1601112975375">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601112975375" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1601112975375">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601112975375" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1601112975374">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601112975374" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1601112975375">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601112975375" />
+  </component>
+</project>
